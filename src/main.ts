@@ -1,1 +1,2 @@
-export * from './components/HelloWorld';
+// @ts-ignore next line
+const modules = import.meta.globEager('./components/**/*.ts')
